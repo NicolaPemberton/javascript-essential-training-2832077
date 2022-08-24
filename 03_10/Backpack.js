@@ -7,7 +7,6 @@
 
 class Backpack {
   constructor(
-    // Defines parameters:
     name,
     volume,
     color,

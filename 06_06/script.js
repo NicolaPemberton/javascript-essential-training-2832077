@@ -9,18 +9,18 @@ console.log("String:", stringDemo);
 
 // Numbes:
 let integerDemo = 4;
-console.log("Integer:", integerDemo);
+console.log("Integer:", typeof integerDemo);
 
 let floatDemo = 5.6;
 console.log("Floating point number:", floatDemo);
 
 // Boolean:
 let booleanDemo = true;
-console.log("Boolean value:", booleanDemo);
+console.log("Boolean value:", typeof booleanDemo);
 
 // Null value (nothing):
 let nullDemo = null;
-console.log("Null value:", nullDemo);
+console.log("Null value:", typeof nullDemo);
 
 // Undefined:
 let undefinedDemo;

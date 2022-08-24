@@ -19,8 +19,19 @@ const backpack = {
   toggleLid: function (lidStatus) {
     this.lidOpen = lidStatus;
   },
-  newStrapLength: function (lengthLeft, lengthRight) {
+  changeVolume: function (newVolume) {
+    this.volume = newVolume;
+  },
+  changeColour: function (newColour) {
+    this.color = newColour;
+  },
+  changePockets: function (newPockets) {
+    this.pocketNum = newPockets;
+  },
+  changeStrapLength: function (lengthLeft, lengthRight) {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
 };
+
+console.log("This is the backpack object:", backpack);
