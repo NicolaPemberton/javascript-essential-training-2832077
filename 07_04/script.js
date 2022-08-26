@@ -21,8 +21,8 @@ fridgeContents[0] = lastItem
 console.log(fridgeContents)
 
 //Actual solution
-deskArray.unshift(deskArray.pop());
-console.log("Last item is now first:", deskArray);
+// deskArray.unshift(deskArray.pop());
+// console.log("Last item is now first:", deskArray);
 
 // Sort the items by alphabetical order - Done
 fridgeContents.sort()
@@ -33,8 +33,7 @@ function isCheese(dairy) { return dairy === 'Cheese'; }
 console.log(fridgeContents.find(isCheese))
 
 //Alternative
-
-const foundItem = fridgeContents.find((item) => item === 'Cheese')
+const foundItem = fridgeContents.find((item) => (item) === 'Cheese')
 console.log('Found item: ', foundItem)
 
 // Remove the item you found using the find method from the array.
@@ -43,7 +42,7 @@ fridgeContents.splice(indexOfCheese, 1)
 console.log(fridgeContents)
 
 //Alternative
-let remove = "notebook";
-deskArray.splice(deskArray.indexOf(remove), 1);
-console.log(`Array with "${remove}" removed:`, deskArray);
+// let remove = "notebook";
+// deskArray.splice(deskArray.indexOf(remove), 1);
+// console.log(`Array with "${remove}" removed:`, deskArray);
 
